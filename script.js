@@ -5,10 +5,10 @@ window.addEventListener("load", (event) => {
   form.classList.add("form");
   const input1 = document.createElement("input");
   input1.id = "input1";
-  input1.classList.add("input");
+  input1.classList.add("input w-input");
   const input2 = document.createElement("input");
   input2.id = "input2";
-  input2.classList.add("input");
+  input2.classList.add("input w-input");
   const input3 = document.createElement("input");
   input3.setAttribute("type", "submit");
   input3.id = "submit";
