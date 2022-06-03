@@ -12,6 +12,7 @@ window.addEventListener("load", (event) => {
   const input3 = document.createElement("input");
   input3.setAttribute("type", "submit");
   input3.id = "submit";
+  input3.classList.add("button search-button w-button");
   form.appendChild(input1);
   form.appendChild(input2);
   form.appendChild(input3);
